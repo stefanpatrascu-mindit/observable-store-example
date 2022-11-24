@@ -1,0 +1,34 @@
+@import "global-variables";
+@import "fonts";
+
+html,
+body {
+  font-family: $default-font;
+  font-size: $default-font-size;
+  color: $default-text-color;
+  background: $default-background;
+  min-height: 100vh;
+  overflow-x: hidden;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.p-inputgroup-addon {
+    color: $primary-color;
+}
+
+
+.app-card {
+    border: 1px solid $default-border-color;
+    padding: 10px;
+    box-shadow: $default-shadow;
+    border-radius: $default-radius-px;
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+.space-between {
+    justify-content: space-between;
+}
